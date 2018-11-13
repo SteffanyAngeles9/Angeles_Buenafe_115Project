@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowsBackground"
+    style="@style/AppTheme"
+    tools:context=".quizPage">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolB"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:elevation="4dp"
+        android:layout_height="56dp"
+        android:background="@color/textColor"
+        app:theme="@style/ToolBarTheme">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/toolBarText"
+            android:layout_gravity="center"
+            />
+
+    </android.support.v7.widget.Toolbar>
+    <RadioGroup
+        android:id="@+id/radioGrp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="202dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="134dp"
+        app:layout_constraintBottom_toTopOf="@+id/quizBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Choice 1" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Choice 2" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Choice 3" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/quizBtn"
+        style="@style/QuizButtonStyle"
+        android:text="SHOW CORRECT ANSWER"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</RelativeLayout>

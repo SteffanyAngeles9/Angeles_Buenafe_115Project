@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Angeles_Buenafe_115</string>
+
+    <string-array name="explain">
+        <item> What is a flood?</item>
+        <item> Causes of flood</item>
+    </string-array>
+
+    <string name="title_activity_about_page">aboutPage</string>
+    <string name="title_activity_what_prepare">whatPrepare</string>
+    <string name="title_activity_during_safe_page">duringSafePage</string>
+    <string name="title_activity_after_safe_pafe">afterSafePafe</string>
+    <string name="survival_kit">SURVIVAL KIT</string>
+
+    <string name="pain">such as paracetamol, aspirin or ibuprofen</string>
+    <string name="flashFlood">This kind occurs within a very short time (2-6 hours, and sometimes within minutes) and is usually as a result of heavy rain, dam break or snow melt. Sometimes, intense rainfall from slow moving thunderstorms can cause it.  Flash floods are the most destructive and can be fatal, as people are usually taken by surprise. There is usually no warning, no preparation and the impact can be very swift and devastating.</string>
+    <string name="rapidFlood">Similar to flash floods, this type takes slightly longer to develop and the flood can last for a day or two only. It is also very destructive, but does not usually surprise people like Flash floods. With rapid on-set floods, people can quickly put a few things right and escape before it gets very bad.</string>
+    <string name="slowFlood">This kind is usually as a result of water bodies over flooding their banks. They tend to develop slowly and can last for days and weeks. They usually spread over many kilometers and occur more in flood plains (fields prone to floods in low-lying areas). The effect of this kind of floods on people is more likely to be due to disease, malnutrition or snakebites.</string>
+    <string name="bldg">During floods (especially flash floods), roads, bridges, farms, houses and automobiles are destroyed. People become homeless. Additionally, the government deploys firemen, police and other emergency apparatuses to help the affected. All these come at a heavy cost to people and the government. It usually takes years for affected communities to be re-built and business to come back to normalcy. </string>
+    <string name="env">The environment also suffers when floods happen. Chemicals and other hazardous substances end up in the water and eventually contaminate the water bodies that floods end up in. In 2011, a huge tsunami hit Japan, and sea water flooded a part of the coastline. The flooding caused massive leakage in nuclear plants and has since caused high radiation in that area. Authorities in Japan fear that Fukushima radiation levels are 18 times higher than even thought.</string>
+    <string name="people">Many people and animals have died in flash floods. Many more are injured and others made homeless. Water supply and electricity are disrupted and people struggle and suffer as a result. In addition to this, flooding brings a lot of diseases and infections including military fever, pneumonic plague, dermatopathia and dysentery. Sometimes insects and snakes make their ways to the area and cause a lot of havoc.</string>
+    <string name="what">It is a natural event or occurrence where a piece of land (or area) that is usually dry land, suddenly gets submerged under water. Some floods can occur suddenly and recede quickly. Others take days or even months to build and discharge.</string>
+    <string name="what_two">When floods happen in an area that people live, the water carries along objects like houses, bridges, cars, furniture and even people. It can wipe away farms, trees and many more heavy items. </string>
+    <string name="what_three">Floods occur at irregular intervals and vary in size, duration and the affected area.</string>
+    <string name="what_four">It is important to note that water naturally flows from high areas to low lying areas. This means low-lying areas may flood quickly before it begins to get to higher ground.</string>
+
+
+</resources>

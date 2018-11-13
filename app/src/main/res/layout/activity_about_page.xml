@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowsBackground"
+    style="@style/AppTheme"
+    tools:context=".aboutPage">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolB"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:elevation="4dp"
+        android:layout_height="56dp"
+        android:background="@color/textColor"
+        app:theme="@style/ToolBarTheme">
+
+    <TextView
+        android:id="@+id/toolbar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/toolBarText"
+        android:layout_gravity="center"
+        />
+
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="314dp"
+        android:layout_height="258dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="312dp"
+        android:layout_height="198dp"
+        android:layout_marginBottom="51dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="12dp"
+        android:text="Floodware is an app designed to assist parents in explaining to their children about the flood that they may experience or have already experienced. This app includes sections such as explanation about flood, what to do before, during and after the flood, and things to remember and what to prepare. Contents from this app came from respective sources such as American Red Cross and many more"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gerrybuenafe.angeles_buenafe_115">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomePage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".categoryPage" />
+        <activity android:name=".explainPage" />
+        <activity android:name=".beforePage" />
+        <activity android:name=".whatPage" />
+        <activity android:name=".afterPage" />
+        <activity android:name=".aboutPage" />
+        <activity android:name=".whatPrepare" />
+        <activity android:name=".duringSafePage" />
+        <activity android:name=".beforeSafePage" />
+        <activity android:name=".thingsDuringPage" />
+        <activity android:name=".afterSafePafe" />
+        <activity android:name=".thingsAfterPage" />
+        <activity android:name=".duringPage" />
+        <activity android:name=".causesFlood" />
+        <activity android:name=".quizPage" />
+        <activity android:name=".cardLayout" />
+        <activity android:name=".typesFlood" />
+        <activity android:name=".effectsFlood" />
+        <activity android:name=".should_do"></activity>
+    </application>
+
+</manifest>

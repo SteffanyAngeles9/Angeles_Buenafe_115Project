@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="windowsBackground">#E0F2F1</color>
+    <color name="ButtonColor">#4F9A94</color>
+
+    <color name="listViewTextColor">#434343</color>
+    <color name="textColor">#ffffff</color>
+    <color name="textColorDark">#000000</color>
+    <color name="toolBarText">#434343</color>
+
+    <color name="color1">#424549</color>
+    <color name="color2">#7e455e</color>
+    <color name="color3">#59717c</color>
+
+
+</resources>

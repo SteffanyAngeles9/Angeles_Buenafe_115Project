@@ -1,0 +1,55 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimaryDark">@color/textColorDark</item>
+    </style>
+
+    <style name="ToolBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">#434343</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:background">@drawable/button_bg_rounded_corners</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:layout_width">218dp</item>
+        <item name="android:layout_height">51dp</item>
+        <item name="android:layout_marginEnd">83dp</item>
+        <item name="android:layout_marginStart">83dp</item>
+    </style>
+
+    <style name="listView">
+        <item name="android:textColor">@color/listViewTextColor</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="homePage_imageView">
+        <item name="android:layout_width">324dp</item>
+        <item name="android:layout_height">303dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginEnd">27dp</item>
+        <item name="android:layout_marginStart">33dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+
+    <style name="toolBarText">
+        <item name="android:textColor">@color/toolBarText</item>
+        <item name="android:textSize">22dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="QuizButtonStyle" parent="ButtonStyle">
+        <item name="android:background">@drawable/button_bg_rounded_corners</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:layout_width">260dp</item>
+        <item name="android:layout_height">51dp</item>
+        <item name="android:layout_marginBottom">84dp</item>
+        <item name="android:layout_marginEnd">62dp</item>
+        <item name="android:layout_marginStart">62dp</item>
+        <item name="android:layout_marginTop">432dp</item>
+    </style>
+
+
+</resources>
